@@ -1,7 +1,7 @@
 // App.jsx
 import { useState } from "react";
 import { Form } from "./Form.jsx";
-import { TodoList } from "./todoList.jsx";
+import { TodoList } from "./ToDoSList.jsx";
 import "./App.css"
 
 export const App = () => {
