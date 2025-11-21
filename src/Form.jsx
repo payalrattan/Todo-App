@@ -24,8 +24,9 @@ export const Form = ({ addTodo }) => {
 
   return (
     <div>
+      <h1>Add your skills / Todos</h1>
       <form onSubmit={submitHandler}>
-        <input type="text" onChange={changeHandler} value={input} />
+        <input type="text" onChange={changeHandler} value={input} placeholder="Add your Skills/Todos here..."/>
         <button>Add</button>
       </form>
      {error && <div className="error">Input can not be empty</div>}
